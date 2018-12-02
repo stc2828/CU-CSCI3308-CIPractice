@@ -1,4 +1,4 @@
 language: c
-before_script: make clean
+before_script: test -n $CC && unset CC
 script:
   - make test
