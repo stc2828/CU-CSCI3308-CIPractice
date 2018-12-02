@@ -1,4 +1,4 @@
 language: c
+before_script: make clean
 script:
-  - make clean
   - make test
