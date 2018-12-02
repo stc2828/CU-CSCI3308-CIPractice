@@ -1,6 +1,5 @@
 language: c
-before_install:
-  - test -n $CC && unset CC
+
 script:
   - make clean
   - make test
