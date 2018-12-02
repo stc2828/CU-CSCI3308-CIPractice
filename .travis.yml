@@ -1,4 +1,4 @@
 language: c
-before_script: test -n $CC && unset CC
+before_script: sudo apt-get install check
 script:
   - make test
